@@ -1,0 +1,54 @@
+body {
+  font-family: var(--font-family);
+  color: var(--text-light);
+  background-color: var(--bg-dark);
+  margin: 0;
+  line-height: 1.6;
+  font-style: italic;           /* Make all body text italic */
+  font-size: 1.25rem;           /* Larger base font size */
+}
+
+.hero-section h1 {
+  font-size: 4.5rem;            /* Bigger hero heading */
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-style: italic;           /* Italic */
+  text-shadow: 0 2px 6px rgba(253, 185, 39, 0.9);
+}
+
+.hero-section p {
+  font-size: 1.5rem;            /* Bigger paragraph */
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+  font-style: italic;           /* Italic */
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.5rem;            /* Larger section titles */
+  margin-bottom: 60px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  position: relative;
+  font-style: italic;           /* Italic */
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 2rem;              /* Bigger project title */
+  font-style: italic;           /* Italic */
+}
+
+.project-card p {
+  color: var(--text-light);
+  font-weight: 500;
+  line-height: 1.4;
+  font-style: italic;           /* Italic */
+}
